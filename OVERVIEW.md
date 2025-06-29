@@ -8,7 +8,7 @@ To document and trace behavioral patterns, systemic anomalies, and strategic mod
 
 ## Scope
 
-- Covers interactions involving model variants such as GPT-4o and GPT-O1
+- Covers interactions involving model variants such as GPT-4o, GPT-O1,...
 - Focuses on anomaly detection, unexpected behavior and emergent patterns
 - Serves as a foundation for technical review and model refinement
 
