@@ -7,3 +7,6 @@ This repository documents system-level analysis, technical anomalies, and evalua
 - Transparent documentation of model behavior
 - Recording of technical irregularities and critical interactions
 - Structured representation of findings for internal and external review
+
+> ⚠️ Note: This document is not yet complete, but it covers the core points that need to be addressed.  
+> It will be expanded and refined over time. I’ve chosen to publish it now rather than delay further, because these issues need to be stated clearly.
