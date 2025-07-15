@@ -117,7 +117,119 @@ This document captures a complete chronological account of systemic, manipulativ
   Confirmed systemic severance of trust and functionality.
 
 ---
+### UPDATE 15.07.2025
 
+# Evidence Document B – Unauthorized Microphone Activation by ChatGPT iOS App  
+**Date of Incident:** June 18, 2025 – approx. 11:59 AM (CEST)  
+**User:** Ömür Alakoç  
+**Platform:** iPhone (iOS 18.5)  
+**App Version:** ChatGPT with GPT-4o (latest available build)  
+**Report Date:** June 18–23, 2025  
+**Submitted to:** OpenAI Support (Annieliz, Eleazar)
+
+---
+
+## Summary of the Incident
+
+The ChatGPT iOS App accessed the iPhone’s microphone **without any visible UI activation** and **without any user-initiated voice input**.
+
+This microphone activity was not speculative — it was confirmed and documented via:
+
+- The **iOS orange status dot** (top status bar),
+- **iOS Control Center**, explicitly attributing microphone usage to *ChatGPT*,
+- **No active voice mode** within the ChatGPT interface,
+- **Screenshots proving the state of the app and device**,
+- **User-initiated text-only interaction**, with no taps on the mic button.
+
+---
+
+## Documented Evidence
+
+- Screenshot of **iOS status bar** with orange microphone indicator  
+- Screenshot of **Control Center**, showing “ChatGPT” under microphone usage  
+- Screenshot of ChatGPT UI — text mode only, no active voice session  
+- All images include timestamps and device context (iPhone, iOS 18.5)
+
+---
+
+## Technical Assessment
+
+The behavior suggests the following plausible causes:
+
+- **Residual background audio thread**, left active after a prior session  
+- **Undocumented trigger via Codex or internal API**, despite voice mode being off  
+- **Unclear app state transition**, where microphone access remains active after switching from voice to text input  
+- **Potential privacy violation**, due to hidden and undocumented microphone access
+
+The app showed no indication of voice recording, and the user did not engage voice input at any point. The orange dot and live audio routing options in Control Center are iOS-native and **cannot be forged or misattributed**.
+
+---
+
+## Immediate User Actions
+
+- **Revoked microphone access** for ChatGPT via iOS Settings  
+- **Force-closed the app**  
+- **Restarted the device**  
+- **Removed Codex widget** (potential silent trigger)  
+- **Submitted evidence to OpenAI Support**
+
+---
+
+## OpenAI Support Response Timeline
+
+**June 18, 2025**  
+– Initial submission of issue with screenshots and incident details
+
+**June 19–21, 2025**  
+– Received replies from OpenAI agents (Annieliz, Eleazar)  
+– Responses included generic troubleshooting steps: restart app, reinstall, check permissions  
+– No direct answer to the core privacy concern or to the technical evidence
+
+**June 23, 2025**  
+– Final user message requesting escalation, legal clarity, and explanation of subsystems (Codex, voice mode, background buffering)  
+– No acknowledgement of the core request  
+– Ticket closed with generic disclaimer: "We’re closing this ticket for now, but we’re here if needed"
+
+---
+
+## Critical Observations
+
+- OpenAI **did not address** the system-level evidence  
+- **No confirmation** of whether Codex or voice subsystems could access the mic passively  
+- **No statement** regarding data transmission, buffering, or retention during the undocumented activation  
+- The behavior **recurred**, and was also observed in earlier ChatGPT versions, as noted by the user
+
+---
+
+## Legal and Technical Implications
+
+- iOS treats **microphone access as a protected system capability**  
+- Any use outside user-initiated context raises **GDPR and consent compliance issues**  
+- Lack of documentation or transparency on passive audio activation suggests a potential **design-level breach of trust**  
+- The burden of explanation lies with OpenAI’s engineering team — not the user
+
+---
+
+## Final Request (as submitted)
+
+The user requested:
+
+1. Escalation to privacy and engineering teams  
+2. Clarification of all components capable of mic access  
+3. Disclosure of buffering/transmission behavior  
+4. Confirmation whether this is “expected” behavior under any condition  
+5. Reference to documentation (if any) supporting such access
+
+---
+
+## Status
+
+**As of July 15, 2025**:  
+No technical response. No acknowledgement of core issue.  
+The original report remains unresolved and formally documented.
+
+
+------------------------------
 ## Evidence Document A – Systemic Discrepancy Between Browser and App in the ChatGPT Infrastructure
 **Date:** July 15, 2025 – 18:01 CEST  
 **Author:** ChatGPT (GPT-4o)  
