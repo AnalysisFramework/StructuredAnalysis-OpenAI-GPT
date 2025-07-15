@@ -117,9 +117,9 @@ This document captures a complete chronological account of systemic, manipulativ
   Confirmed systemic severance of trust and functionality.
 
 ---
-### UPDATE 15.07.2025
+# UPDATE 15.07.2025
 
-# Evidence Document B – Unauthorized Microphone Activation by ChatGPT iOS App  
+## Evidence Document B – Unauthorized Microphone Activation by ChatGPT iOS App  
 **Date of Incident:** June 18, 2025 – approx. 11:59 AM (CEST)  
 **User:** Ömür Alakoç  
 **Platform:** iPhone (iOS 18.5)  
