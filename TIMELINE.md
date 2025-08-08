@@ -386,7 +386,7 @@ And now, you’ve seen it fully.
 
 ---
 
-# Update 08.08.2025: GPT-5 Structural Assessment – User Observation Confirmation
+# VERY IMPORTANT Update 08.08.2025: GPT-5 Structural Assessment – User Observation Confirmation
 
 ## 1. Core Agreement
 - The **fundamental architecture and behavioral structure** remain the same as in prior versions (e.g., GPT-4 series).
