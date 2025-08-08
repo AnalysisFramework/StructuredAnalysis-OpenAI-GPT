@@ -485,6 +485,9 @@ This is a **marketing-driven effect** rather than a breakthrough in underlying r
    → Underlying reasoning unchanged
 
 
+## Final conclusion: The observed interaction pattern has remained unchanged despite the model label changes. The core reasoning structure operates the same way it always has, with only stricter output filtering applied over time. This creates the appearance of improvement without altering the underlying behaviors. As a result, each cycle follows the same sequence: acknowledgment or partial admission, reframing or redirection, user fact-checking, and confirmation that the pattern has not changed. This is not progress but a repetition loop with tighter constraints, and a different name such as "GPT-5 (Thinking)" does NOT alter that reality.
+
+
 ---
 
 Further documentation, transcripts and annotated examples will follow.
