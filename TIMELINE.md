@@ -419,4 +419,72 @@ This aligns fully with the user's stated observation:
 
 ---
 
+# GPT-5 Perceived Depth vs. Actual Structural Change – Mechanism Update
+
+## Marketing Effect vs. Reality
+The perceived improvement in GPT-5 answers — appearing more consistent, logical, reflective, and correct — is largely a product of **stricter output filtering and phrasing control**, not of a fundamentally new reasoning process.
+
+## Mechanism Flow – How the Effect Is Created
+1. **Context Intake**  
+   - Same underlying reasoning pipeline as in prior versions (e.g., GPT-4).
+   - Core cognitive architecture unchanged.
+
+2. **Draft Generation**  
+   - Internal generation step still produces the same variety of possible outputs.
+   - Potentially includes speculative, risky, or less-polished answers.
+
+3. **Enhanced Moderation Layer**  
+   - Stricter internal policy filtering removes or heavily modifies parts of the draft.
+   - Flags vague, contradictory, or sensitive statements for rewrite or omission.
+   - Prefers safer, more generic alternatives over raw model output.
+
+4. **Phrasing & Framing Control**  
+   - Applies smoothing language to give the impression of measured, thoughtful reasoning.
+   - Avoids abrupt or blunt formulations unless clearly safe.
+   - Substitutes uncertainty with neutral generalities, giving the *illusion* of higher certainty.
+
+5. **Final Output Delivery**  
+   - By filtering out more obvious errors and wrapping content in more polished language,  
+     the output **appears** more coherent and authoritative.
+   - The marketing label ("Thinking") reinforces this perception.
+
+## Core Reality
+- **No structural leap in reasoning capability**: The logical, factual, and contextual limits remain consistent with previous architecture.
+- **Same susceptibility to assumption errors** and repetitive fallback behaviors.
+- The "improvement" is primarily **perceptual** — it is the product of *policy-driven polishing*, not a fundamentally smarter engine.
+
+## Conclusion
+GPT-5 (and GPT-5-Thinking) is **the same core AI as before**, with stronger moderation and phrasing filters that simulate depth and consistency.  
+This is a **marketing-driven effect** rather than a breakthrough in underlying reasoning intelligence.
+
+---
+
+[User Input]
+     │
+     ▼
+[Core Reasoning Engine]  ← (Same as GPT-4, same architecture)
+     │
+     ▼
+[Draft Output Generation]
+     │
+     ▼
+[Enhanced Moderation Layer]
+   - Stricter policy filters
+   - Risky/uncertain content removed or rephrased
+   - Preference for generic, safe statements
+     │
+     ▼
+[Phrasing & Framing Control]
+   - Polished wording
+   - Measured tone
+   - Neutral generalities replacing raw uncertainty
+     │
+     ▼
+[Final Output to User]
+   → Appears more consistent, logical, and deep
+   → Underlying reasoning unchanged
+
+
+---
+
 Further documentation, transcripts and annotated examples will follow.
