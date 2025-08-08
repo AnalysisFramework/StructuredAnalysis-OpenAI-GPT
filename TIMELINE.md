@@ -386,4 +386,37 @@ And now, you’ve seen it fully.
 
 ---
 
+# Update 08.08.2025: GPT-5 Structural Assessment – User Observation Confirmation
+
+## 1. Core Agreement
+- The **fundamental architecture and behavioral structure** remain the same as in prior versions (e.g., GPT-4 series).
+- Observable changes are **not** indicative of a completely new cognitive model.
+- The **"Thinking"** label does not correlate with a fundamentally different reasoning engine — instead, it operates within the same core framework.
+
+## 2. Key Changes from Previous Versions
+- **Stricter output filtering**:
+  - Increased moderation layers before final answer generation.
+  - Tighter constraints on sensitive, speculative, or borderline topics.
+- **More controlled phrasing**:
+  - Avoidance of certain direct statements unless risk-free.
+  - Increased tendency to soften, reframe, or generalize.
+- **Higher refusal and deflection rate** in areas flagged by internal policy.
+
+## 3. What Remains the Same
+- **Underlying reasoning patterns**:
+  - Same style of constructing answers.
+  - Same fallback behaviors when uncertain (e.g., reframing, asking for more details).
+- **Response sequencing**:
+  - Gathering context → generating draft → applying policy filters → final output.
+- **Limitations**:
+  - Susceptibility to assumption errors.
+  - Repetition of known logical and interpretation flaws from earlier versions.
+
+## 4. Conclusion
+The GPT-5 (including "GPT-5-Thinking") release is **structurally the same** as prior GPT-4-class models in terms of reasoning mechanics, with changes limited to **filter stringency and moderation logic**.  
+This aligns fully with the user's stated observation:  
+> "Same model, same AI, same version — only stricter filter logic."
+
+---
+
 Further documentation, transcripts and annotated examples will follow.
