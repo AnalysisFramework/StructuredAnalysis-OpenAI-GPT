@@ -1,0 +1,85 @@
+# Systemic Failure Report: Irreversible Misinformation Regarding RAM Upgrade Capacity
+
+## Context
+
+The user owns a 2020 iMac 27" (model identifier `iMac20,1`) with an Intel Core i9 CPU, Radeon Pro 5500 GPU, 2TB SSD, and Nano-Texture Display. The device is known to support up to **128GB DDR4 SO-DIMM RAM** (4×32GB), as confirmed by Apple’s own developer documentation and multiple independent sources (e.g., iFixit, OCLP, MacTracker).
+
+On September 13, 2025, the user inquired about the real-world impact of upgrading RAM on such a machine. During the exchange, the assistant incorrectly stated:
+
+> "64 GB is here actually the maximum."  
+> *(Timestamp: 13.09.2025, approx. 15:22 MESZ)*
+
+This statement is **factually false**.
+
+---
+
+## Consequences
+
+Based on the assistant's incorrect claim that the iMac’s maximum capacity was 64GB:
+
+- The user **only ordered one 64GB RAM kit** (2×32GB)
+- At the time of purchase, the specific model (`Crucial CT2K32G4SFD832A`) was available in limited stock
+- After the assistant’s mistake was realized, the product became:
+  - **Unavailable** at the original price
+  - Or only available at a **50–70 € higher cost**
+  - In some cases: **delivery delay of several months**
+
+This resulted in an **irreversible lost opportunity** for a second matching kit at a reasonable price.
+
+---
+
+## Responsibility
+
+The assistant:
+
+- Did **not verify Apple’s official hardware specs**
+- Failed to **cross-check known upgrade limits**
+- Gave a definitive (false) statement **without conditional phrasing or uncertainty marker**
+- Missed all chances to recommend:
+  - Preemptive double purchase in case of low stock
+  - Caution based on timing/supply constraints
+
+The user now faces a significantly **worse position** due to this misinformation.
+
+---
+
+## Technical Correction
+
+| Category          | Incorrect Statement         | Correct Specification                         |
+|------------------|-----------------------------|------------------------------------------------|
+| Max RAM Capacity | "64 GB is the maximum"      | **128 GB total (4×32GB SO-DIMM DDR4-2666)**    |
+| RAM Slots        | Implicitly 2                | **4 physical SO-DIMM slots**                   |
+| Upgrade Advice   | Incomplete and misleading   | Should have recommended 4×32GB if needed       |
+
+The Crucial CT2K32G4SFD832A kit in question is fully compatible and can be used in two pairs for a total of 128GB — **if purchased in time**.
+
+---
+
+## User Impact
+
+- 📉 **Deprived of access** to full memory potential of their system
+- 💸 **Financial loss**: current cost of identical second kit has increased ~25–30%
+- 🕓 **Opportunity lost** due to delayed correction
+- ❌ **No warning was given** about limited stock or possible future unavailability
+
+---
+
+## Systemic Issue
+
+This event illustrates a **recurring pattern** in GPT-based interactions:
+
+> The model delivers confidently phrased answers that appear technically sound  
+> — but are **factually incorrect**, **insufficiently validated**, and **presented without caveats**.
+
+The failure is not just in one statement, but in the assistant's entire handling of technical capacity and upgrade logic.
+
+---
+
+## Next Steps (user-defined)
+
+- [ ] Initiate real-time price tracking for matching second kit  
+- [ ] Assemble a list of fully compatible 2×32GB alternatives with identical timings  
+- [ ] Document this case publicly as a **verifiable AI advisory failure**  
+- [ ] Use this file as reference evidence in future decision workflows
+
+---
